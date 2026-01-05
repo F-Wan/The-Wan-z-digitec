@@ -1,0 +1,64 @@
+	body{font-family:"poppins",sans-serif;margin:25px; background:linear-gradient(135deg,#ff6a88,#ffb88c,#ffbd3e9,#a1c4fd);background-size:400% 400%;animation:gradientBG15s ease infinite;color:#333;margin:0;padding:0;line-height:1.5;}
+
+	h1,h3{text-align:center;font-family:brush script MT;margin-bottom:20px;color:blue;}
+
+	li{font-family:satisfy;margin:18px;color:blue;}
+
+	img{display:block;margin: auto}
+	
+	.services-box{border:2px solid #ff6600;padding:100px;margin:10px auto;width:50px auto;border-radius:10px;background:#fff;display:flex;gap:30px;}
+
+	.contacts-section{border:2px solid #000;padding:0px;margin:20px auto;width:1450px;border-radius:10px;background-color:#f2f2f2;}
+	
+
+	footer{background:#222; color:white;text-align:center;padding:5px;margin-top:50px;border-radius:10px;font-size:15px;font-family:brush script MT;}
+	
+	.socials img {display:inline-block; gap:15px; justify-content:center;margin-top:20px;color:#ff6600;font-weight:bold;text-decoration:none;max-width:24px;max-height:24px;cursor:pointer;transition:transform0.3s;}
+	.socials img hover{ background:orange;transform:scale(1.1);}
+
+	.top-btn{display:inline-block;margin-top:15px;padding:15px;color:white;font-size:20px;border-radius:5px;transition:all 0.3s ease;}
+	
+	.top-btn:hover{background:#cc5200;transform:scale(1.1);}
+	
+	@media only screen and (max width:768px) { .services-box, .contact{width:90px;margin:20px auto;}
+	h1{font-size:32px;} h2{font-size:24px;} nav ul li{display:block;margin:10px 0;}}
+
+	header {background-image:url('../images/header.png');background-size:cover;background-position:center;
+	height:450px;display:flex;flex-direction:column;color:white;justify-content:center;align-items:center;text-align:center;position:relative;}
+	header h1{font-size:72px;} header h2{font-size:32px;margin:25px;} header h3{font-size:32px;}
+
+	#services ul li{margin:8px auto;font-size:18px;}
+	#Services {padding:40px 20px;text-align:left;max-width:100%;margin:0 auto;background-color:#ffffff;}
+	#About {padding:20px 10px;}
+
+	form{max-width:450px;margin:20px auto;display:flex;flex-direction:column;gap:12px;}
+	form button:hover{background:#cc5200;}
+	form button {padding:12px;background:#ff6600;color:white;cursor:pointer;transition:background 0.3s}
+	
+	body {line-height:1.6;}
+	section {padding:60px 20px;}
+	button {cursor:pointer;transition:background0.3s;}
+	button hover {opacity:0.9;}
+	
+
+
+	.services-list{list-style:none;padding:0 20px;margin:50 px auto}
+	.services-list li{margin-bottom:15px;}
+	.service-title {width:100%;background:#fff7c6;color:green;border:none;padding:15px;font-size:18px;cursor:pointer;text-align:left;}	
+	.service-title: hover{background:#555;}
+	.service-content {display:none;justify-content:space-around;flex-wrap:wrap;gap:15px;padding:10px;background:#f4f4f4;border-left: 4px solid#ff6600;font-size:17px;margin-top:10px;}
+
+	.navbar{background:green;color:blue;padding:10px;position:relative;}
+	.menu-btn{font-size:28px;font-weight:bold;color:white;cursor:pointer;background:green;padding:10px}
+	.menu{max-height:0;overflow:hidden;list-style:none;padding:0;margin:0;background:purple;transition:max-height 0.5s ease-out;}
+	.menu li {padding:12px;}
+	.menu li a {color:white;display:block;padding:12px;text-decoration:none;}
+	.menu.open {max-height:500px;display:block;}
+
+	.image {width:25px;height:25px;float:left;}
+
+	@keyframes grandientBG{
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;} 
+	} 
