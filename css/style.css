@@ -1,14 +1,14 @@
-	body{font-family:"poppins",sans-serif;margin:25px; background:linear-gradient(135deg,#ff6a88,#ffb88c,#ffbd3e9,#a1c4fd);background-size:400% 400%;animation:gradientBG15s ease infinite;color:#333;margin:0;padding:0;line-height:1.5;}
+	body{font-family:"poppins",sans-serif;margin:25px; background:linear-gradient(135deg,#ff6a88,#ffb88c,#ffbd3e9,#a1c4fd);background-size:400% 400%;animation:gradientBG15s ease infinite;color:#333;margin:0;padding:0;line-height:1.5;width100%;}
 
 	h1,h3{text-align:center;font-family:brush script MT;margin-bottom:20px;color:blue;}
 
 	li{font-family:satisfy;margin:18px;color:blue;}
 
-	img{display:block;margin: auto}
+	img{display:block;margin: auto;}
 	
 	.services-box{border:2px solid #ff6600;padding:100px;margin:10px auto;width:50px auto;border-radius:10px;background:#fff;display:flex;gap:30px;}
 
-	.contacts-section{border:2px solid #000;padding:0px;margin:20px auto;width:1450px;border-radius:10px;background-color:#f2f2f2;}
+	.contacts-section{border:2px solid #ff6600;padding:0px;margin:20px auto;width:600px auto;border-radius:10px;background-color:#f2f2f2;box-sizing:border-box;}
 	
 
 	footer{background:#222; color:white;text-align:center;padding:5px;margin-top:50px;border-radius:10px;font-size:15px;font-family:brush script MT;}
@@ -21,6 +21,7 @@
 	.top-btn:hover{background:#cc5200;transform:scale(1.1);}
 	
 	@media only screen and (max width:768px) { .services-box, .contact{width:90px;margin:20px auto;}
+	@media(max-width:480px;){#contact{padding:20px 10px;max-width:90%;}}
 	h1{font-size:32px;} h2{font-size:24px;} nav ul li{display:block;margin:10px 0;}}
 
 	header {background-image:url('../images/header.png');background-size:cover;background-position:center;
